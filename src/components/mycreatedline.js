@@ -211,7 +211,7 @@ class MycreatedLine extends Component {
                                 <p className='mylineuserno'>{this.state.userno}</p>
                             </div>
                             <div className='qrdiv'>
-                                <span>Scan the code to join the queue</span>
+                                <span>Scan the code to join the queue via digiQ app</span>
                                 <QRCode id="qr-gen" value={this.state.qid} className="qrbox" level="H" size="75" />
                                 <Button primary type="button" onClick={this.downloadQRCode} className='downqrbut'>
                                     Download QR Code
