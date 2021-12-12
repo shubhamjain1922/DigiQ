@@ -1,0 +1,1086 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,200;1,800&display=swap');
+
+/* #c1272d */
+:root {
+    --black: #2b2b2b;
+    --white: #FAF8F6;
+    --skin: #F9CAB9;
+    --lightskin: #fee7de;
+    --orange: #b5373c;
+    --gray: #a69f9e;
+}
+
+#hidden {
+    display: none !important;
+}
+
+/* login signup */
+.logincon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+}
+
+.loghead {
+    height: 80px;
+    width: auto;
+}
+
+.logheadcon {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.logcre {
+    text-align: center;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
+.logsignbut {
+    width: 100%;
+    background-color: #803bc9 !important;
+    border-radius: 5px;
+    padding: 10px;
+    color: white !important;
+    margin-top: 30px;
+    border-style: none;
+}
+
+.logaccbut {
+    width: 100%;
+    background-color: #200e32;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.errbox {
+    color: red;
+    font-size: 10px;
+}
+
+.qrdivsign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.downappbut {
+    display: none !important;
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+
+@media (min-width:800px) and (max-width: 1000px) {
+
+    .logimg {
+        width: 400px;
+        height: auto;
+    }
+
+    .loghead {
+        height: 60px;
+        width: auto;
+    }
+}
+
+@media (max-width: 799px) {
+
+    .logincon {
+        flex-direction: column;
+    }
+
+    .logimg {
+        width: 300px;
+        height: auto;
+    }
+
+    .ui.card {
+        margin-top: 0;
+    }
+
+    .qrdivsign {
+        display: none !important;
+    }
+
+    .loghead {
+        height: 50px;
+        width: auto;
+    }
+
+    .downappbut {
+        display: initial !important;
+    }
+}
+
+/* side Navbar */
+
+.pro-sidebar .pro-menu .pro-menu-item {
+    font-size: 20px !important;
+    margin: 10px 5px;
+}
+
+.pro-sidebar>.pro-sidebar-inner {
+    background: var(--black) !important;
+}
+
+.pro-sidebar {
+    width: 200px !important;
+    max-width: 200px !important;
+}
+
+.pro-sidebar>.pro-sidebar-inner>.pro-sidebar-layout .pro-sidebar-content {
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+.navicon {
+    color: white;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.sidebarcon {
+    height: 100vh !important;
+    margin: 0;
+    background-color: var(--black) !important;
+    color: var(--white) !important;
+    margin-right: 20px;
+}
+
+.navitem {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.navimg {
+    width: auto;
+    height: 80px;
+    margin: 10px;
+}
+
+.navmenuitem {
+    color: var(--white) !important;
+    margin: 10px 0 !important;
+}
+
+.sidenavitem {
+    margin: 25px 0 !important;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item>.pro-inner-item>.pro-item-content {
+    overflow: inherit !important;
+}
+
+@media (max-width: 799px) {
+    .pro-sidebar {
+        width: 22vw !important;
+        min-width: 150px !important;
+        margin-right: 20px;
+    }
+
+    .pro-sidebar .pro-menu .pro-menu-item {
+        font-size: 14px !important;
+        margin: 10px 2px;
+    }
+
+    .sidenavitem {
+        margin: 20px 0 !important;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+.pro-item-content {
+    margin-bottom: 10px !important;
+}
+
+.navmenuitem:hover {
+    color: var(--gray) !important;
+}
+
+/* topnav */
+.topnavcon {
+    padding: 20px;
+    padding-left: 0;
+    border-bottom: 1px solid white !important;
+    box-shadow: none !important;
+    color: var(--black);
+    font-family: 'Poppins', sans-serif;
+}
+
+.ui.menu {
+    border: none !important;
+    ;
+}
+
+.topnavhead {
+    font-size: 30px !important;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.topnavbut {
+    width: 100px !important;
+    margin-right: 10px !important;
+    margin-top: -5px;
+    height: 50px;
+    background-color: var(--orange) !important;
+    border-radius: 5px;
+    padding: 10px 5px;
+    color: white !important;
+    border-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 799px) {
+    .topnavhead {
+        font-size: 25px !important;
+        letter-spacing: 0px;
+    }
+
+    .topnavbut {
+        font-size: 12px !important;
+        width: 85px !important;
+        height: 40px;
+        margin-right: 0px !important;
+        margin-left: 5px !important;
+    }
+
+    .topnavhead {
+        font-size: 25px !important;
+        letter-spacing: 0px;
+    }
+}
+
+/* all lines */
+
+.alllinescon {
+    height: 84vh;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: none;
+    background: #e5e5e5 !important;
+    padding: 10px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.joinedlinescon, .createdlinescon {
+    height: 84vh;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: none;
+    background: #e5e5e5 !important;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding: 10px;
+}
+
+.showlinescon {
+    height: 66vh;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: none;
+    margin: auto;
+    margin-top: 17%;
+    background: var(--black) !important;
+    padding: 20px;
+    padding-top: 30px;
+    color: #d1c7c6;
+}
+
+.showlistname {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.showlisttextcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.showlisttext {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.showlineuserbox {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 5px #d1c7c6;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.showlistboxcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.showlineuserno {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.showlinetimeno {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: -4px;
+}
+
+.showlineusertext {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.showlistbutcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:1199px) {
+    .listbutcon #hidden, .listtimewrap #hidden {
+        display: initial !important;
+    }
+
+    .listinfobut {
+        display: none !important;
+    }
+}
+
+.ui.segment, .ui.divided.grid:not([class*="vertically divided"])>.row>.column {
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+}
+
+.mylinesbox {
+    background-color: var(--black) !important;
+    color: var(--white) !important;
+    /* border: 2px solid black !important; */
+}
+
+.joinedhead {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* listdiv */
+.listdiv {
+    background: var(--black);
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    color: #d1c7c6;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.createlistdiv {
+    background: var(--black);
+    border-radius: 10px;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    color: #d1c7c6;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.listiconcon {
+    width: 60px;
+    height: 60px;
+    background: var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+}
+
+.showiconcon {
+    width: 100px;
+    height: 100px;
+    background: var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.listbutcon {
+    float: right;
+    border-left: 0.5px solid var(--gray);
+}
+
+.listbut {
+    width: 100px !important;
+    height: 40px !important;
+    background: var(--orange) !important;
+    border-radius: 50px !important;
+    margin: 10px 10px !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+    color: white !important;
+}
+
+.listbut:hover, .topnavbut:hover {
+    box-shadow: 0 0 5px var(--orange) !important;
+}
+
+.listbuticon {
+    font-size: 40px;
+    color: var(--orange);
+    float: right;
+    margin: 10px 10px;
+}
+
+.listicon {
+    font-size: 35px;
+    color: white;
+}
+
+.showicon {
+    font-size: 60px;
+    color: white;
+}
+
+.listname {
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+.listtext {
+    font-size: 12px;
+    margin: 0 2px;
+    margin-right: 10px;
+}
+
+.listlocicon {
+    color: #d1c7c6;
+    margin-right: 3px;
+}
+
+.listnocon {
+    float: right;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 13px;
+    border-left: 1px solid #d1c7c6;
+    border-right: 1px solid #d1c7c6;
+}
+
+.listno {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.listtimecon {
+    float: right;
+    width: 70px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-right: 13px;
+}
+
+.listtime {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+/* popup */
+
+.modal {
+    position: relative !important;
+    top: unset;
+    left: unset;
+    height: 530px;
+}
+
+@media (max-width:970px) {
+    .modal {
+        left: 150px;
+    }
+}
+
+.ui.modal {
+    width: 400px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.modalnavbut {
+    width: 100px !important;
+    margin-right: auto !important;
+    margin-left: 37% !important;
+    margin-top: 20px !important;
+    height: 50px;
+    background-color: var(--orange) !important;
+    border-radius: 5px;
+    padding: 10px 5px;
+    color: white !important;
+    border-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ui.modal>.close {
+    top: 1px !important;
+    right: 1px !important;
+    color: black !important;
+}
+
+.react-code-input {
+    margin-left: 25%;
+}
+
+.popimg {
+    height: auto;
+    width: 380px;
+}
+
+@media (max-width:800px) {
+    .modal {
+        left: 80px;
+    }
+
+    .ui.modal {
+        width: 300px !important;
+    }
+
+    .popimg {
+        height: auto;
+        width: 280px;
+    }
+
+    .react-code-input {
+        margin-left: 20%;
+    }
+
+    .modalnavbut {
+        margin-left: 35% !important;
+    }
+}
+
+/* myline */
+
+.mylinecon {
+    height: 90vh;
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.mylinewrap {
+    padding-left: 200px;
+    padding-top: 5vh;
+}
+
+.mylinehead {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--orange);
+}
+
+.mylinehead2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+}
+
+.mylineuserbox {
+    width: 140px;
+    height: 140px;
+    box-shadow: 0.5px 0.5px 2px black;
+    border-radius: 15px;
+    padding: 20px 5px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mylineuserno {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mylineimg {
+    height: 250px;
+    width: auto;
+}
+
+@media (max-width: 799px) {
+    .mylinewrap {
+        padding-left: 22vw !important;
+    }
+
+    .mylinecon {
+        width: 74vw;
+    }
+
+    .mylineimg {
+        height: auto;
+        width: 200px;
+    }
+}
+
+
+
+.mylinebut {
+    width: 150px !important;
+    margin: 10px 5px !important;
+}
+
+.mylinedelbut {
+    background-color: red !important;
+}
+
+.mylinefucbut {
+    background-color: var(--black) !important;
+}
+
+.midbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.qrbox {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.qrdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* profile */
+
+.proficon {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+@media (max-width: 799px) {
+    .proficon {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:920px) {
+    .listdiv {
+        padding-bottom: 15px;
+    }
+
+    .listiconcon {
+        width: 50px;
+        height: 50px;
+        background: var(--orange);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        float: left;
+        margin-right: 5px;
+    }
+
+    .listicon {
+        font-size: 25px;
+    }
+
+    .listbut {
+        width: 80px !important;
+        height: 30px !important;
+        background: var(--orange) !important;
+        border-radius: 50px !important;
+        margin: 10px 5px !important;
+        border: none !important;
+        box-shadow: none !important;
+        font-weight: 500 !important;
+        cursor: pointer !important;
+        font-size: 12px !important;
+    }
+
+    .listtimecon {
+        float: right;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .listtime {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: -1px;
+    }
+
+    .listnocon {
+        float: right;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 10px;
+        border-left: 1px solid #d1c7c6;
+        border-right: 1px solid #d1c7c6;
+    }
+
+    .listno {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: -4px;
+    }
+
+    .listname {
+        font-size: 20px;
+        margin-bottom: -5px;
+    }
+
+    .listtext {
+        font-size: 10px;
+        margin: 0 2px;
+        margin-right: 7px;
+    }
+
+    .listlocicon {
+        color: #d1c7c6;
+        margin-right: 3px;
+    }
+}
+
+.manqbut {
+    width: 120px !important;
+}
+
+.activeqdiv {
+    position: relative;
+}
+
+.activeq {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: green;
+    top: 32%;
+    right: -20px;
+}
+
+.dactiveq {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    top: 32%;
+    right: -20px;
+}
+
+@media (max-width:500px) {
+    .activeq {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        position: absolute;
+        background-color: green;
+        top: 32%;
+        right: -15px;
+    }
+
+    .dactiveq {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        position: absolute;
+        background-color: red;
+        top: 32%;
+        right: -15px;
+    }
+
+    .listiconcon {
+        width: 40px;
+        height: 40px;
+        background: var(--orange);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        float: left;
+        margin-right: 5px;
+    }
+
+    .listicon {
+        font-size: 20px;
+    }
+
+    .listbut {
+        width: 80px !important;
+        height: 30px !important;
+        background: var(--orange) !important;
+        border-radius: 50px !important;
+        margin: 10px 5px !important;
+        border: none !important;
+        box-shadow: none !important;
+        font-weight: 500 !important;
+        cursor: pointer !important;
+        font-size: 10px !important;
+    }
+
+    .listtimecon {
+        float: right;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 9px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .listtime {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: -1px;
+    }
+
+    .listnocon {
+        float: right;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 9px;
+        border-left: 1px solid #d1c7c6;
+        border-right: 1px solid #d1c7c6;
+    }
+
+    .listno {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: -4px;
+    }
+
+    .listname {
+        font-size: 17px;
+        margin-bottom: -5px;
+    }
+
+    .listtext {
+        font-size: 9px;
+        margin: 0 2px;
+        margin-right: 7px;
+    }
+
+    .listlocicon {
+        color: #d1c7c6;
+        margin-right: 3px;
+    }
+
+    .qrdiv {
+        font-size: 13px !important;
+    }
+
+    .qrbox {
+        max-width: 90px;
+    }
+
+    .downqrbut {
+        padding: 5px !important;
+        font-size: 10px !important;
+    }
+
+    .mylinebut {
+        margin: 5px !important;
+        font-size: 10px !important;
+        height: 30px !important;
+        width: 100px !important;
+    }
+}
+
+.respocon {
+    height: 100vh;
+    width: 100vw;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+}
+
+@media (max-width:600px) {
+    .sidebarcon {
+        display: none;
+    }
+
+    .topnavcon {
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    .mylinewrap {
+        padding-left: 0 !important;
+        padding-top: 6vh;
+    }
+
+    .mylinecon {
+        height: 90vh;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+.bm-burger-button {
+    position: fixed;
+    width: 26px;
+    height: 20px;
+    left: 20px;
+    top: 20px;
+}
+
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: var(--black);
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+    background: black;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 20px;
+    width: 20px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+    background: white;
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+    background: var(--black);
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: var(--black);
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+    color: var(--black);
+    padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+    margin: 20px;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.menu-item {
+    margin: 30px 20px !important;
+}
+
+.phonenavitem {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.phonenavitem:hover {
+    color: var(--gray);
+}
