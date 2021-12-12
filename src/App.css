@@ -1001,6 +1001,9 @@ input::-webkit-inner-spin-button {
         text-align: center;
         margin: auto;
     }
+    .modal {
+        left: 5px;
+    }
 }
 
 .bm-burger-button {
