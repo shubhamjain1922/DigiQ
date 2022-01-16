@@ -99,7 +99,7 @@ class SignUp extends Component {
                             </Link>
                         </Form>
                         <div className='qrdivsign'>
-                            <QRCode id="qr-gen" value="https://i.diawi.com/ynR4hH" className="qrbox" level="H" size="75" />
+                            <QRCode id="qr-gen" value="https://i.diawi.com/sGK5bV" className="qrbox" level="H" size="75" />
                             <span>Scan the code to download DigiQ app</span>
                         </div>
                         <Button href="https://i.diawi.com/ynR4hH" primary type="button" className='downappbut'>
