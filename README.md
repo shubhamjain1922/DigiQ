@@ -21,14 +21,14 @@ Let's deep dive into it's features.
 
 #### Home Page
 
-![Start Page](https://github.com/shubhamjain1922/digiQ/tree/main/img/home.png)
+![Home Page](https://github.com/shubhamjain1922/digiQ/tree/main/img/home.png)
 
 #### Signup Page
 
-![Home Page](https://github.com/shubhamjain1922/digiQ/tree/main/img/signup.png)
+![Signup Page](https://github.com/shubhamjain1922/digiQ/tree/main/img/signup.png)
 
 #### Manage Queue Page
 
-![Subscription Page](https://github.com/shubhamjain1922/digiQ/tree/main/img/managepage.png)
+![Manage Queue Page](https://github.com/shubhamjain1922/digiQ/tree/main/img/managepage.png)
 
 ### Do check out the [Website](http://digique.herokuapp.com/)
