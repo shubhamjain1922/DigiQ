@@ -25,10 +25,10 @@ Let's deep dive into it's features.
 
 #### Signup Page
 
-![Signup Page](https://github.com/shubhamjain1922/digiQ/tree/main/img/signup.png)
+![Signup Page](/img/signup.png)
 
 #### Manage Queue Page
 
-![Manage Queue Page](https://github.com/shubhamjain1922/digiQ/tree/main/img/managepage.png)
+![Manage Queue Page](/img/managepage.png)
 
 ### Do check out the [Website](http://digique.herokuapp.com/)
